@@ -111,17 +111,12 @@ input {
     cursor: pointer;
 }
 
-.content .content-right {
-    display: block;
-    width: 100%;
-}
-
 .content .content-right img {
-    width: 400px;
+    width: 200px;
     height: auto;
     position: relative;
     user-select: none;
-    animation: rotate 10s linear infinite;
+    animation: rotate 10s linear infinite; /* Smooth rotation animation */
 }
 
 @keyframes rotate {
@@ -132,6 +127,7 @@ input {
         transform: rotate(360deg);
     }
 }
+
 
 .category {
     width: 100%;
